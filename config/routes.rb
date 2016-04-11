@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
 
-  resource :treehouses
+  resources :treehouses
+
+  root 'treehouses#index'
 end

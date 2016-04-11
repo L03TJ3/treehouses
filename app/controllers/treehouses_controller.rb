@@ -1,10 +1,10 @@
 class TreehousesController < ApplicationController
 
-  def show
-    @treehouse = Treehouse.find( params[:id])
+  def index
+    @treehouses = TreeHouse.all
   end
 
-  def index
-    @treehouses = Treehouse.all
+  def show
+    @treehouse = TreeHouse.find{ ( params[:id])}
   end
 end
