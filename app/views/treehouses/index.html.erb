@@ -1,6 +1,24 @@
-<h1>Rent a treehouse</h1>
-<% @treehouses.each do |treehouse| %>
+<section class="jumbotron">
+   <div class="container">
+     <div class="row text-center">
+       <h2>Rent a treehouse</h2>
+     </div>
+   </div>
+ </section>
+ <section class="container">
+     <div class="row">
+       <% @treehouses.each do |treehouse| %>
+          <div class="col-md-4 letmargin">
+            <%= link_to image_tag(treehouse.image), treehouse_path(treehouse.id) %>
+            <p><%= treehouse.title %></p>
+          </div>
+      <% end %>
+    </div>
+ </section>
+
+
+
+<!-- <% @treehouses.each do |treehouse| %>
     <p><%= treehouse.title %></p>
-    <p><%= treehouse.image %></p>
-    </p>
-<% end %>
+    <%= image_tag(treehouse.image) %></p>
+<% end %> -->
