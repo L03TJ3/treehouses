@@ -1,4 +1,9 @@
-TreeHouse.create( { title: "Treehouse Lucia", description: "Entire home/2 Bedroom/4 persons", image: "img_1", price: "$1600 US per week ($235 per night)"      } )
+TreeHouse.create( {
+  title: "Treehouse Lucia",
+  description: "Entire home/2 Bedroom/4 persons",
+  image: "img_1",
+  price: "$1600 US per week ($235 per night)"
+} )
 TreeHouse.create( { title: "Tranquil Resort Treehouse", description: "Entire home/1 Bedroom/2 persons", image: "img_2", price: "$1350 US per week  ($195 per night)"      } )
 TreeHouse.create( { title: "Tropical Treehouse", description: "Entire home/2 Bedroom/4 persons", image: "img_3", price: "$1650 US per week ($240 per night)"      } )
 TreeHouse.create( { title: "Maria Treehouse", description: "Entire home/2 Bedroom/4 persons", image: "img_4", price: "$1550 US per week ($235 per night)"      } )

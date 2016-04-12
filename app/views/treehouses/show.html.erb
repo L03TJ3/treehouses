@@ -1,2 +1,16 @@
 <h2>Checkout this treehouse </h1>
-  
+  <div class="row">
+  <h3 class="title"> <%= @treehouse.title %></h3>
+
+  <div class="row">
+    <p class="content"> <%= @treehouse.description  %>
+      <br />
+      <br />
+      $<%= @treehouse.price %> US per week ($<%= @treehouse.price / 7 %> per night)
+    </p>
+    <p class="treehouse_photo"> <%= image_tag( @treehouse.image, width: '250px', height: '250px') %></p>
+  </div>
+
+
+</div>
+</div>
