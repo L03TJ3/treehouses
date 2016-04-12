@@ -1,16 +1,21 @@
 <section class="jumbotron">
    <div class="container">
      <div class="row text-center">
-       <h2>Rent a treehouse</h2>
+       <h2>Tree Huggers</h2>
+       <h3>Rent a tree house</h3>
      </div>
    </div>
  </section>
- <section class="container">
+ <section class="main">
      <div class="row">
        <% @treehouses.each do |treehouse| %>
-          <div class="col-md-4 letmargin">
-            <%= link_to image_tag(treehouse.image), treehouse_path(treehouse.id) %>
-            <p><%= treehouse.title %></p>
+          <div class="col-xs-4 letmargin">
+             <div class="hovereffect">
+               <%= image_tag(treehouse.image) %>
+                <div class="overlay">
+                    <h3><%= link_to treehouse.title, treehouse_path(treehouse.id) %></h3>
+                  </div>
+             </div>
           </div>
       <% end %>
     </div>
