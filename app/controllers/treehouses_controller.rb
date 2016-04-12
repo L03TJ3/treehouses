@@ -5,6 +5,6 @@ class TreehousesController < ApplicationController
   end
 
   def show
-    @treehouse = TreeHouse.find{ ( params[:id])}
+    @treehouse = TreeHouse.find(params[:id])
   end
 end
