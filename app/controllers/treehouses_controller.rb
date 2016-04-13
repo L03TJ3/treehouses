@@ -6,6 +6,9 @@ class TreehousesController < ApplicationController
 
   def show
     @treehouse = TreeHouse.find(params[:id])
-    render :layout => 'show'
+    render 'layouts/layout-other'
+  end
+
+  def contact
   end
 end
