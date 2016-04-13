@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "bootstrap-variables.scss";
-@import "bootstrap-sprockets.scss";
+@import "bootstrap-generators.scss";
 @import "bootstrap.scss";
 
 .jumbotron {
@@ -15,9 +15,7 @@
   text-shadow: 0.25px 0.25px 0.25px #000000;
   margin-top: -20px;
 }
-#show_body {
-  background-image: url('http://www.uncalke.com/i/nature-forest-wallpaper-desktop.jpg')
-}
+
 
 
 .jumbotron .container h2, {
@@ -129,20 +127,4 @@
   filter: alpha(opacity=100);
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
-}
-
-.container.show_page {
-  background: $gray-lighter;
-  margin-top: 230px;
-  background-color: rgba(238,238,238, 0.9)
-}
-
-.photo-container {
-  display: inline-block;
-  margin-bottom: -14px;
-  margin-left: -14px;
-}
-
-.row.show-content{
-  display: inline-block;
 }

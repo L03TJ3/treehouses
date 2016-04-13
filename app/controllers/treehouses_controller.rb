@@ -6,5 +6,6 @@ class TreehousesController < ApplicationController
 
   def show
     @treehouse = TreeHouse.find(params[:id])
+    render :layout => 'show'
   end
 end
