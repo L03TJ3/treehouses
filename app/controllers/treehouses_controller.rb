@@ -10,5 +10,6 @@ class TreehousesController < ApplicationController
   end
 
   def contact
+    render 'layouts/layout-contact'
   end
 end

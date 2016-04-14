@@ -6,6 +6,7 @@
      </div>
    </div>
  </section>
+
  <section class="container">
      <div class="row">
        <% @treehouses.each do |treehouse| %>
@@ -13,7 +14,7 @@
              <div class="hovereffect">
                <%= image_tag(treehouse.image) %>
                 <div class="overlay">
-                    <h3><%= link_to treehouse.title, treehouse_path(treehouse.id) %></h3>
+                    <h3><strong><%= link_to treehouse.title, treehouse_path(treehouse.id) %></stong></h3>
                   </div>
              </div>
           </div>
@@ -21,9 +22,5 @@
     </div>
  </section>
 
-
-
-<!-- <% @treehouses.each do |treehouse| %>
-    <p><%= treehouse.title %></p>
-    <%= image_tag(treehouse.image) %></p>
-<% end %> -->
+ <!-- <footer class = "footer">
+ <footer> -->
