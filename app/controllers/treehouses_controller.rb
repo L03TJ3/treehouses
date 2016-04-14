@@ -6,10 +6,10 @@ class TreehousesController < ApplicationController
 
   def show
     @treehouse = TreeHouse.find(params[:id])
-    render 'layouts/layout-other'
+    render layout: 'layout-other'
   end
 
   def contact
-    render 'layouts/layout-contact'
+    render layout: 'layout-contact'
   end
 end
