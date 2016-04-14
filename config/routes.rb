@@ -1,8 +1,7 @@
 Rails.application.routes.draw do
 
+  devise_for :users
   resources :treehouses
-  resources :users, only: [:new, :create]
-
   get 'contact' => 'treehouses#contact'
 
   root 'treehouses#index'
