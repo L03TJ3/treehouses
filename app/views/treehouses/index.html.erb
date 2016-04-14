@@ -11,7 +11,7 @@
        <% @treehouses.each do |treehouse| %>
           <div class="col-xs-4 letmargin">
              <div class="hovereffect">
-               <%= image_tag(treehouse.image) %>
+               <%= image_tag(treehouse.image, class: "main-photo") %>
                 <div class="overlay">
                     <h3><%= link_to treehouse.title, treehouse_path(treehouse.id) %></h3>
                   </div>

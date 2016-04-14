@@ -7,17 +7,69 @@
 }
 
 .container.show_page {
-  background: $gray-lighter;
   margin-top: 50px;
-  background-color: rgba(238,238,238, 0.6)
-}
+  background-color: white;
+  padding-bottom: 60px;
 
+
+}
+// rgba(238,238,238, 0.6)
+
+
+//  THE IMAGE
 .photo-container {
   display: inline-block;
-  margin-bottom: -14px;
-  margin-left: -14px;
+  margin-left: -15px;
+  display: inline-block;
 }
 
-.show-content{
-  display: inline-block;
+.show-photo{
+width: 600px;
+margin-top: -565px;
+}
+
+// .show-content{
+//
+// }
+
+
+// TEXT
+.text-div{
+display: inline-block;
+margin: auto;
+width: 551px;
+
+}
+
+.title{
+  color: gray;
+  font-size: 30px;
+  font-family: "Noto Serif", serif;
+
+}
+
+.text-box{
+  margin: auto;
+  padding-top: 95px;
+  // display: inline-block
+  width: 326px;
+  // margin-left: 123px;
+  // margin-top: 80px;
+}
+
+.text-price{
+font-size: 15px;
+font-weight: bold;
+}
+// BUTON
+.button{
+  background-color: black;
+  text-align: center;
+  padding: 16px 16px 16px 16px;
+  border-radius: 34px;
+}
+
+.buttonstyle{
+  text-decoration: none;
+  color: white;
 }
