@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tree_house_id: 
+  user_id: 
+  start_date: 2016-04-15
+  end_date: 2016-04-15
+
+two:
+  tree_house_id: 
+  user_id: 
+  start_date: 2016-04-15
+  end_date: 2016-04-15

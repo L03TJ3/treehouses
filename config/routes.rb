@@ -1,8 +1,11 @@
 Rails.application.routes.draw do
 
   devise_for :users
-  resources :treehouses
-  get 'contact' => 'treehouses#contact'
+  resources :tree_houses do
+    resources :reservations
+  end
 
-  root 'treehouses#index'
+  get 'contact' => 'tree_houses#contact'
+
+  root 'tree_houses#index'
 end
