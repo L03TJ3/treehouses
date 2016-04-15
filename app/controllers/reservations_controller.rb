@@ -22,7 +22,7 @@ def create
 
   respond_to do |f|
     if @reservation.save
-      f.html { redirect_to @tree_house, notice: 'Reservation was successfully created. :)' }
+      f.html { redirect_to tree_house_reservations_path, notice: 'Reservation was successfully created. :)' }
     else
       f.html { redirect_to @tree_house, error: 'Reservation could not be created. :(' }
     end
