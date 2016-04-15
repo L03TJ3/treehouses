@@ -7,36 +7,34 @@
 }
 
  .container.show_page {
-  margin-top: 50px;
+  margin-top: 80px;
+  margin-bottom: 80px;
   background-color: white;
-  padding-bottom: 60px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.50), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
  }
 
 //  THE IMAGE
  .photo-container {
+  width: 600px;
+  height: 400px;
   display: inline-block;
-  margin-bottom: -14px;
-  margin-left: -14px;
-  margin-left: -15px;
+  margin-right: 75px;
+  margin-left: -16px;
+
  }
 
+  .show-photo{
+  display: inline-block;
+  width: 600px;
+  margin-top: -360px;
+  }
+
+// TEXT
 .show-content{
   display: inline-block;
 }
-
-  .show-photo{
-  width: 600px;
-  margin-top: -528px;
-  }
-
-
-
-// TEXT
 .text-div{
 display: inline-block;
-margin: auto;
-width: 551px;
 
 }
 
@@ -44,12 +42,11 @@ width: 551px;
   color: gray;
   font-size: 30px;
   font-family: "Noto Serif", serif;
-
 }
 
 .text-box{
-  margin-left: 118px;
-  padding-top: 75px;
+  margin-left: 61px;
+  padding-top: 100px;
   width: 326px;
 
 }
@@ -70,4 +67,8 @@ font-weight: bold;
 .buttonstyle{
   text-decoration: none;
   color: white;
+ }
+
+ .reserv {
+   padding: 16px 45px 16px 45px;
  }
