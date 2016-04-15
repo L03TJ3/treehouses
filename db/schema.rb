@@ -11,10 +11,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160414133600) do
+ActiveRecord::Schema.define(version: 20160415121053) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "reservations", force: :cascade do |t|
+    t.integer  "tree_house_id"
+    t.integer  "user_id"
+    t.date     "start_date"
+    t.date     "end_date"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+  end
+
+  add_index "reservations", ["tree_house_id"], name: "index_reservations_on_tree_house_id", using: :btree
+  add_index "reservations", ["user_id"], name: "index_reservations_on_user_id", using: :btree
 
   create_table "tree_houses", force: :cascade do |t|
     t.string   "title"
@@ -43,4 +55,6 @@ ActiveRecord::Schema.define(version: 20160414133600) do
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
 
+  add_foreign_key "reservations", "tree_houses"
+  add_foreign_key "reservations", "users"
 end

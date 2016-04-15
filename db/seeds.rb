@@ -1,3 +1,4 @@
+User.create(email: "test@codaisseur.com", password: "foobar123")
 TreeHouse.create( {
   title: "Treehouse Lucia",
   description: "Entire home/2 Bedroom/4 persons",
