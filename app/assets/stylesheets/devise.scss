@@ -1,0 +1,46 @@
+.fields {
+  margin-top: 110px;
+}
+
+.formulaire {
+  background: white;
+  padding-top: 110px;
+  padding-bottom: 110px;
+  font-family: "Noto Serif";
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.50), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+.formulaire .field {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.formulaire #green {
+  text-transform: uppercase;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.formulaire .field .text {
+  font-size: 17px;
+}
+
+.formulaire .button {
+  padding: 18px 45px 18px 45px;
+  color: white;
+  font-size: 17px;
+}
+.other {
+  color: #66cc00;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.other:hover {
+  color: #66cc00;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.signup {
+  margin-top: 10px;
+}

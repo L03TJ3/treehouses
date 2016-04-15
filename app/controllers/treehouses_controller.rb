@@ -12,4 +12,8 @@ class TreehousesController < ApplicationController
   def contact
     render layout: 'layout-contact'
   end
+
+  def devise
+    render layout: 'devise'
+  end
 end
