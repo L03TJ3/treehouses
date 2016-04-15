@@ -1,5 +1,5 @@
 class TreeHousesController < ApplicationController
-  before_action :set_treehouse, only: [:show, :contact]
+  before_action :set_treehouse, only: [:show]
 
   def index
     @treehouses = TreeHouse.all
