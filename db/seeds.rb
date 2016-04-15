@@ -51,6 +51,10 @@ TreeHouse.create( {
 TreeHouse.create( {
   title: "Splash Treehouse",
   description: "Entire home/1 Bedroom/2 persons" ,
+<<<<<<< HEAD
+  image: "img_9.jpg",
+=======
   image: "img_9.jpg", 
+>>>>>>> master
   price: 1450
 } )
