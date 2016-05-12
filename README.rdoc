@@ -1,28 +1,21 @@
-== README
+== TreeHuggers (Work In Progress)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+For the teamproject we got in the second week of bootcamp
+we were tasked to build a clone to AirBnB as a Ruby On Rails project
 
-Things you may want to cover:
+As a team we decided to showcase Luxury treehouses
 
-* Ruby version
+What it consists of:
 
-* System dependencies
+* User authentication system with devise
 
-* Configuration
+* Showcase ten luxury treehouses
 
-* Database creation
+* Once you see a treehouse you like, make a reservation
 
-* Database initialization
+* Styling with bootstrap
 
-* How to run the test suite
+Feel free to checkout the treehuggers website:
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+A version of treehuggers is currently deployed on heroku:
+http://guarded-basin-47812.herokuapp.com/
